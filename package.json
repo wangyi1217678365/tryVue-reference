@@ -1,0 +1,69 @@
+{
+  "_from": "fire-monkey",
+  "_id": "fire-monkey@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-+Fnb9iuiyMsOueT41/gSQaqcjJqYflHmrUcFO3vU8uOGaH3vugGNavMaTEhnZTRiYck2WX5uToQKzQWEIprUbA==",
+  "_location": "/fire-monkey",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "fire-monkey",
+    "name": "fire-monkey",
+    "escapedName": "fire-monkey",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "http://npm.tgz",
+  "_shasum": "52e41bb750971e43ed33f6c0e4881094d61babcb",
+  "_spec": "fire-monkey",
+  "_where": "D:\\",
+  "author": {
+    "name": "刘素芬"
+  },
+  "bin": {
+    "fireMonkey": "index.js",
+    "firemonkey": "index.js",
+    "monkey": "index.js",
+    "fire": "index.js"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+
+  ],
+  "dependencies": {
+    "@babel/parser": "^7.14.1",
+    "@babel/traverse": "^7.14.0",
+    "@babel/types": "^7.14.1",
+    "@darkobits/lolcatjs": "^3.1.3",
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "clui": "^0.3.6",
+    "commander": "^7.2.0",
+    "compressing": "^1.5.1",
+    "figlet": "^1.5.0",
+    "inquirer": "^8.0.0",
+    "koa": "^2.13.1",
+    "koa-static": "^5.0.0",
+    "ws": "^7.5.3"
+  },
+  "deprecated": false,
+  "description": "Fire Monkey是一个快速初始化中后台系统的工具",
+  "keywords": [
+    "fire",
+    "monkey",
+    "fire-monkey",
+    "fireMonkey"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "fire-monkey",
+  "publishConfig": {
+    "registry": "http://np.com/"
+  },
+  "version": "1.2.0"
+}

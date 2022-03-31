@@ -1,0 +1,135 @@
+.pub-content,
+.pub-content .tab-content {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.pub-content p {
+  margin: 0;
+}
+
+.public-container {
+  width: 100%;
+}
+
+.public-container ul,
+.public-container li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.public-container .item-list {
+  text-align: left;
+  cursor: pointer;
+  padding: 16px;
+  transition: background .2s;
+  color: #000;
+}
+
+.public-container .item-list:hover {
+  background-color: aliceblue;
+}
+
+.public-container .item-list.active {
+  background: linear-gradient(270deg, #FFFBF9 0%, #FFF5F1 100%);
+}
+
+.public-container .item-list.active .list-tit {
+  color: #ff6800;
+}
+
+.public-container .list-des {
+  font-size: 14px;
+  margin-top: 4px;
+  color: rgba(0, 0, 0, .6);
+}
+
+.wrapper {
+  width: 28px;
+  height: 18px;
+  margin-left: 8px;
+  border-radius: 9px;
+  background: #e4f5ef;
+  -webkit-transition: background .3s;
+  transition: background .3s;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+}
+
+.wrapper.selected {
+  background-color: #ff6800;
+}
+
+.wrapper:active .bullet {
+  transform: scale(0.86);
+}
+
+.wrapper.selected .bullet {
+  margin-left: 10px;
+}
+
+.wrapper .bullet {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #2c3e50;
+  -webkit-transition: margin-left .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  transition: margin-left .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  transition: margin-left .2s ease-in-out, transform .2s ease-in-out;
+  transition: margin-left .2s ease-in-out, transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+.public-dialog_content {
+  min-height: 300px;
+  text-align: center;
+}
+
+.public-dialog_content .success p {
+  margin: 0;
+}
+
+.public-dialog_content .success p span,
+.public-dialog_content .success .icon {
+  vertical-align: middle;
+}
+
+.public-dialog_content .success .text {
+  font-size: 26px;
+  color: green;
+}
+
+.public-dialog_content .success .desc {
+  line-height: 1.2;
+  margin-top: 27px;
+  text-align: left;
+}
+
+.public-dialog_content .success .install {
+  background: #FF8746;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #FF8746;
+  outline: none;
+  margin-top: 40px;
+}
+
+
+.public-dialog_content .command {
+  /* background: #333; */
+  /* border: 1px solid #999; */
+  border-radius: 4px;
+  /* color: rgba(255, 255, 255, .86); */
+  text-align: left;
+  padding: 16px;
+  margin-top: 12px;
+  width: 200px;
+  box-shadow: 0px 4px 12px 0px rgb(17 27 35 / 20%);
+}
+
+

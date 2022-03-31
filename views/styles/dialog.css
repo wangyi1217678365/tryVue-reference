@@ -1,0 +1,61 @@
+.dialog-wrapper {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  margin: 0;
+  z-index: 1999;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.dialog-container {
+  position: relative;
+  margin: 0 auto;
+  background: #FFFFFF;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 4px 12px 0px rgb(17 27 35 / 20%);
+  box-shadow: 0px 4px 12px 0px rgb(17 27 35 / 20%);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  min-width: 460px;
+}
+
+.dialog-container .dialog-title {
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #EAEDF1;
+  font-weight: bold;
+}
+
+.dialog-container .dialog-title span {
+  line-height: 22px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.dialog-container .dialog-title .close {
+  position: absolute;
+  top: 0;
+  right: 12px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.dialog-container .dialog-title .close svg {
+  width: 16px;
+  height: auto;
+}
+
+.dialog-container .dialog-content {
+  padding: 20px;
+}

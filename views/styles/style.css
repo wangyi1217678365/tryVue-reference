@@ -1,0 +1,280 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: #2c3e50;
+}
+
+header {
+  text-align: center;
+  /* background-color: rgba(242, 68, 24, .1); */
+  /* background: linear-gradient(137deg, #FFE29F 0%, #FFA99F 50%, #FF719A 100%); */
+  /* background: linear-gradient(135deg, #9EFBD3 0%, #57E9F2 46%, #45D4FB 100%); */
+  /* background: linear-gradient(135deg, #39CFBE 0%, #129CD2 100%); */
+  /* background: linear-gradient(135deg, #47A9FE 0%, #2090E9 100%); */
+  min-width: 1000px;
+  background-image: linear-gradient(270deg, rgba(176, 42, 42, .16) 0%, rgba(176, 42, 42, .56) 18.45%, rgba(176, 42, 42, .8) 49.67%, rgba(176, 42, 42, .56) 82.52%, rgba(176, 42, 42, .196364) 99.7%, rgba(189, 40, 40, 0) 99.71%, rgba(203, 56, 55, 0) 99.72%, rgba(203, 56, 55, .16) 99.73%), url(../images/header-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: sticky;
+  top: 0;
+  z-index: 5000;
+}
+
+header h1 {
+  font-size: 49px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  padding: 40px 16px 6px;
+  margin: 0;
+  color: #fff;
+  font-weight: bold;
+  font-family: DINAlternate-Bold, DINAlternate;
+  text-align: center;
+}
+
+.create-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.create-tab .tab {
+  line-height: 40px;
+  padding: 0 18px;
+  cursor: default;
+  font-size: 20px;
+}
+
+.create-tab .tab.active,
+.create-tab .tab.active:hover {
+  color: #FF6321;
+  background-color: #FFC329;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+}
+
+.create-tab .tab+.tab {
+  margin-left: 10px;
+}
+
+.create-tab .tab svg {
+  fill: #2c3e50;
+  vertical-align: middle;
+  margin-right: 3px;
+}
+
+.create-tab .tab.active svg {
+  /* fill: rgba(255, 108, 0, .8); */
+  fill: #f24418;
+}
+
+.operate {
+  text-align: center;
+  width: 1000px;
+  margin: 30px auto;
+}
+
+.operate button {
+  background: #FF8746;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 16px 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #FF8746;
+  outline: none;
+}
+
+.operate button.pre {
+  color: #000;
+  background: #fff;
+  border: 1px solid #aeaeae;
+}
+
+.operate button:active {
+  border: none;
+}
+
+.operate button+button {
+  margin-left: 20px;
+}
+
+.operate svg {
+  fill: #fff;
+  vertical-align: middle;
+  margin-right: 3px;
+}
+
+.operate button.pre svg {
+  fill: #000;
+}
+
+.operate button.pre:hover {
+  color: #FF8746;
+  background: #fff;
+  border: 1px solid #FF8746;
+}
+
+.operate button.pre:hover svg {
+  fill: #FF8746;
+}
+
+.tab-content {
+  padding: 16px;
+  text-align: left;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.tab-content .tips {
+  width: 1000px;
+  background: rgba(24, 144, 255, .1);
+  line-height: 40px;
+  padding-left: 16px;
+  color: #2db7f5;
+  border: 1px solid rgba(24, 144, 255, .2);
+  box-sizing: border-box;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  background: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.bg {
+  background-color: rgba(255, 135, 70, 0.18);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex.center {
+  justify-content: center;
+}
+
+.flex.between {
+  justify-content: space-between;
+}
+
+.flex.around {
+  justify-content: space-around;
+}
+
+.flex.column {
+  flex-direction: column;
+}
+
+.flex1 {
+  flex: 1 1;
+}
+
+.flex.items-center {
+  align-items: center;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.pd-10 {
+  padding: 10px;
+}
+
+.pd-15 {
+  padding: 15px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pr-15 {
+  padding-right: 15px;
+}
+
+.pt-15 {
+  padding-top: 15px;
+}
+
+.pl-15 {
+  padding-left: 15px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
+}
+
+.beautiful-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 1px;
+}
+
+.beautiful-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  box-shadow: inset 0 0 5px rgb(0 0 0 / 10%);
+  background: rgba(144,147,153,.5);
+}
+
+.beautiful-scrollbar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(0 0 0 / 10%);
+  border-radius: 5px;
+  background: transparent;
+}

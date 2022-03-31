@@ -1,0 +1,70 @@
+.components1 {
+  height: 100vh;
+}
+
+.components1 .header {
+  flex: 104px 0 0;
+}
+
+.components1 .content {
+  max-width: 1168px;
+  width: 1168px;
+  margin: 0 auto;
+}
+
+.components1 .footer {
+  flex: 73px 0 0;
+}
+
+.components1 .before {
+  height: 32px;
+  width: 32px;
+  flex: 32px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.components1 .dir-select .path {
+  border-left: 2px solid #fff;
+  height: 100%;
+  padding: 0 5px;
+  user-select: none;
+}
+
+.components1 .ipt {
+  border: 1px solid rgba(255, 108, 0, .1);
+  border-bottom: 2px solid rgba(255, 108, 0, .5);
+  background: #fff;
+  outline: 0;
+}
+
+.components1 .dir-select .path:hover {
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.components1 .dir-select .path:first-of-type {
+  border: none;
+}
+
+.components1 .dir-redirect {
+  flex: 32px 0 0;
+}
+
+.components1 .child {
+  list-style: none;
+  padding: 0;
+  max-height: calc(100vh - 361px);
+  min-height: 400px;
+  overflow: auto;
+}
+
+.components1 .list-items {
+  list-style: none;
+  text-align: left;
+}
+
+.components1 .list-items:hover {
+  background: linear-gradient(270deg, #FFFBF9 0%, #FFF5F1 100%);
+}
